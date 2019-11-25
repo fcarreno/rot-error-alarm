@@ -1,0 +1,20 @@
+{
+  "name": "rot-error-alarm-server",
+  "version": "1.0.0",
+  "description": "Rotunda Error Alarm Exercise (server module)",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcarreno/rot-error-alarm-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcarreno/rot-error-alarm-server/issues"
+  },
+  "homepage": "https://github.com/fcarreno/rot-error-alarm-server#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1"
+  }
+}
