@@ -3,9 +3,9 @@ const app = express();
 const logger = require('./utils/logging/logger');
 
 
-// For this exercise, normally I would just use an error tracking service.
-// Using the library/SDK/API provided by the service, to send the errors,
-// and let the service take care of the dashboard/reporting/insights, alerts, etc.
+// For this exercise, normally I would just use an error tracking/monitoring service,
+// log the errors using any library/SDK/API available from it, and defer/delegate the
+// processing (dashboard/reporting/insights, alerts, etc) to the service itself.
 app.get('/api/test', (req, res) => {
 
     let testNumber = parseInt(req.query.number);
